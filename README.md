@@ -1,6 +1,6 @@
 # proyectofinalSO
 
-Paso 1: Instalar Python y pip
+## Paso 1: Instalar Python y pip
 
 Antes de comenzar, asegúrate de tener Python y pip instalados. En Ubuntu, puedes instalarlos con:
           sudo apt update
