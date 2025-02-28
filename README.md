@@ -1,5 +1,7 @@
 # proyectofinalSO
 
+## NOTA: TODO ESTA HECHO DESDE UBUNTU 24.10 EN UNA MAQUINA VIRTUAL DE ORACLE VIRTUAL BOX
+
 ### Paso 1: Instalar Python y pip
 
 Antes de comenzar, asegúrate de tener Python y pip instalados. En Ubuntu, puedes instalarlos con:
