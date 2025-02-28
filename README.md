@@ -32,4 +32,5 @@ Luego, abre en el navegador:
     
 *NOTA: En caso de que salga un error en la pagina setup_2fa.html, instalar pillow de lleno con:
     pip install pillow
+
 Claro todo esto dentro del mismo venv.
