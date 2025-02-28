@@ -29,6 +29,7 @@ Guarda todos los archivos y ejecuta:
 
 Luego, abre en el navegador:
     http://127.0.0.1:5000
-*NOTA: En caso de que salga un error en la pagina generar_qr.html, instalar pillow de lleno con:
+    
+*NOTA: En caso de que salga un error en la pagina setup_2fa.html, instalar pillow de lleno con:
     pip install pillow
 Claro todo esto dentro del mismo venv.
