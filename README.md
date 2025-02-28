@@ -70,20 +70,20 @@ Ejecuta:
 
 Agrega este contenido:
 
-<VirtualHost *:443>
-         ServerName localhost
+         <VirtualHost *:443>
+                  ServerName localhost
 
-         SSLEngine on
-         SSLCertificateFile /etc/ssl/myapp/myapp.crt
-         SSLCertificateKeyFile /etc/ssl/myapp/myapp.key
+                  SSLEngine on
+                  SSLCertificateFile /etc/ssl/myapp/myapp.crt
+                  SSLCertificateKeyFile /etc/ssl/myapp/myapp.key
 
-         ProxyPass / http://127.0.0.1:5000/
-         ProxyPassReverse / http://127.0.0.1:5000/
+                  ProxyPass / http://127.0.0.1:5000/
+                  ProxyPassReverse / http://127.0.0.1:5000/
 
-         <Directory /var/www/html>
-                  Require all granted
-         </Directory>
-</VirtualHost>
+                  <Directory /var/www/html>
+                           Require all granted
+                  </Directory>
+         </VirtualHost>
 
 ### Paso5: Activar el sitio SSL y reiniciar Apache
 
