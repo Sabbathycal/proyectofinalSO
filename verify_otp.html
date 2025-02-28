@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verificar OTP</title>
+</head>
+<body>
+    <h2>Introduce el código de autenticación</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.otp.label }} {{ form.otp() }} <br>
+        {{ form.submit() }}
+    </form>
+</body>
+</html>

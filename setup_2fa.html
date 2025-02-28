@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Configurar 2FA</title>
+</head>
+<body>
+    <h2>Escanea este código QR con Google Authenticator</h2>
+    <img src="data:image/png;base64,{{ qr_code }}" alt="QR Code">
+    <p>O introduce esta clave manualmente: <b>{{ secret }}</b></p>
+    <a href="{{ url_for('verify_otp') }}">Verificar Código</a>
+</body>
+</html>
