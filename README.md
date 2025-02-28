@@ -44,6 +44,7 @@ Ejecuta en la terminal:
 
 **sudo apt update**
 **sudo apt install apache2 libapache2-mod-wsgi-py3 -y**
+
 Para que Apache envíe tráfico a Flask, debemos configurar un VirtualHost.
 ### Paso 2: Habilitar módulos de proxy en Apache
 
