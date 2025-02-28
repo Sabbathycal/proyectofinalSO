@@ -23,6 +23,8 @@ Ejecuta:
 
 ### Paso 4: Hacer apropiado uso de los archivos que hay en el repositorio
 
+Todo se corre en el venv
+
 ### Paso 5: Ejecutar la Aplicación
 
 Guarda todos los archivos y ejecuta:
